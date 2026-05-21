@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Online Courses</h1>
+  <p>Навчайся онлайн разом з нами</p>
+</header>
+
+<section class="courses">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="Programming">
+    <h2>Програмування</h2>
+    <p>HTML, CSS, JavaScript та створення сайтів.</p>
+    <button onclick="showMessage()">Записатись</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="Design">
+    <h2>Дизайн</h2>
+    <p>Графічний дизайн та робота у Figma.</p>
+    <button onclick="showMessage()">Записатись</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1200&auto=format&fit=crop" alt="Marketing">
+    <h2>Маркетинг</h2>
+    <p>Просування брендів та соцмережі.</p>
+    <button onclick="showMessage()">Записатись</button>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

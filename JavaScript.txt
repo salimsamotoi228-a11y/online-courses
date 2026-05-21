@@ -1,0 +1,3 @@
+function showMessage() {
+  alert("Ви успішно записались на курс!");
+}
